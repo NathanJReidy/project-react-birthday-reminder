@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.centerCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* height: 80%; */
+  width: 30%;
+  background-color: white;
+  padding: 2rem;
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 0.75rem;
+  border: solid gray 0.25px;
+}
+
+.btn {
+  background-color: rgb(247, 146, 163);
+  height: 3rem;
+  width: 100%;
   color: white;
+  font-size: x-large;
+  margin-top: 2rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.birthdayCardList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.birthdayCard {
+  display: flex;
+  flex-direction: row;
+  height: 10rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 20%;
+}
+
+.img {
+  border-radius: 9999px;
+  height: 100%;
+  width: 100%;
+
+  object-fit: fill;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  justify-content: center;
+}
+
+.name {
+  font: bold;
+  font-weight: bold;
+  font-size: larger;
+  margin: 0;
+}
+
+.age {
+  margin: 0;
 }

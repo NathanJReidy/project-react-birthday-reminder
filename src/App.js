@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="centerCard">
+        <p>X birthdays today</p>
+        <div className="birthdayCardList">
+          <div className="birthdayCard">
+            <div className="imgContainer">
+              <img
+                src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
+                alt=""
+                className="img"
+              />
+            </div>
+
+            <div className="detailsContainer">
+              <p className="name">Bertie Yates</p>
+              <p className="age">29 years</p>
+            </div>
+          </div>
+
+          <div className="birthdayCard">
+            <div className="imgContainer">
+              <img
+                src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
+                alt=""
+                className="img"
+              />
+            </div>
+
+            <div className="detailsContainer">
+              <p className="name">Bertie Yates</p>
+              <p className="age">29 years</p>
+            </div>
+          </div>
+        </div>
+        <button className="btn">Clear All </button>
+      </div>
+    </>
   );
 }
 
