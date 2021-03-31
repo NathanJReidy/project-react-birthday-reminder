@@ -42,16 +42,15 @@
 .imgContainer {
   display: flex;
   flex-direction: row;
-  height: 100%;
-  width: 20%;
+  height: 7rem;
+  width: 7rem;
 }
 
 .img {
+  height: 7rem;
+  width: 7rem;
   border-radius: 9999px;
-  height: 100%;
-  width: 100%;
-
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .detailsContainer {

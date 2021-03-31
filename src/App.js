@@ -1,4 +1,6 @@
 import "./App.css";
+import people from "./data";
+import BirthdayCard from "./BirthdayCard";
 
 function App() {
   return (
@@ -6,35 +8,9 @@ function App() {
       <div className="centerCard">
         <p>X birthdays today</p>
         <div className="birthdayCardList">
-          <div className="birthdayCard">
-            <div className="imgContainer">
-              <img
-                src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
-                alt=""
-                className="img"
-              />
-            </div>
-
-            <div className="detailsContainer">
-              <p className="name">Bertie Yates</p>
-              <p className="age">29 years</p>
-            </div>
-          </div>
-
-          <div className="birthdayCard">
-            <div className="imgContainer">
-              <img
-                src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
-                alt=""
-                className="img"
-              />
-            </div>
-
-            <div className="detailsContainer">
-              <p className="name">Bertie Yates</p>
-              <p className="age">29 years</p>
-            </div>
-          </div>
+          {people.map((person) => {
+            return <BirthdayCard key={person.id} {...person} />;
+          })}
         </div>
         <button className="btn">Clear All </button>
       </div>
