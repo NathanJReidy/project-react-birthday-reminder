@@ -10,6 +10,8 @@
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   border-radius: 0.75rem;
   border: solid gray 0.25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .btn {
