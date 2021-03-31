@@ -14,6 +14,12 @@
   margin-bottom: 5%;
 }
 
+@media (max-width: 1280px) {
+  .centerCard {
+    width: 85%;
+  }
+}
+
 .btn {
   background-color: rgb(247, 146, 163);
   height: 3rem;
