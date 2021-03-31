@@ -3,7 +3,16 @@ import data from "./data";
 
 const BirthdayCard = (props) => {
   console.log(props);
-  const { id, name, age, img, people, setPeople } = props;
+  const {
+    id,
+    name,
+    age,
+    img,
+    people,
+    setPeople,
+    birthdayCount,
+    setBirthdayCount,
+  } = props;
 
   const removePerson = (id) => {
     const newPeople = people.filter((person) => person.id !== id);
@@ -19,7 +28,13 @@ const BirthdayCard = (props) => {
       <div className="detailsContainer">
         <p className="name">{name}</p>
         <p className="age">{age}</p>
-        <p className="remove" onClick={() => removePerson(id)}>
+        <p
+          className="remove"
+          onClick={() => {
+            removePerson(id);
+            setBirthdayCount(birthdayCount - 1);
+          }}
+        >
           Remove
         </p>
       </div>

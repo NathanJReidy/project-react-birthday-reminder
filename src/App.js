@@ -21,6 +21,8 @@ function App() {
                 {...person}
                 people={people}
                 setPeople={setPeople}
+                birthdayCount={birthdayCount}
+                setBirthdayCount={setBirthdayCount}
               />
             );
           })}
