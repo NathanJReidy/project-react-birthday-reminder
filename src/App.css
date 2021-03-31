@@ -1,8 +1,8 @@
 .centerCard {
   display: flex;
   flex-direction: column;
-  /* height: 80%; */
   width: 35%;
+  margin: 3rem 0;
   background-color: white;
   padding: 2rem;
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
@@ -10,11 +10,12 @@
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   border-radius: 0.75rem;
   border: solid gray 0.25px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  /* margin-top: 10rem; */
+  /* margin-top: 15%;
+  margin-bottom: 15%; */
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
   .centerCard {
     width: 85%;
   }
