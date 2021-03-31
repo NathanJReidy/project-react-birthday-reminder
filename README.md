@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+I used this mini project to learn useState in React. It showcases html, css & react (javascript) skills.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
