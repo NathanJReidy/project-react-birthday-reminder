@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.birthdaysToday {
+  font-size: x-large;
+}
+
 .birthdayCardList {
   display: flex;
   flex-direction: column;
@@ -35,17 +39,18 @@
 .birthdayCard {
   display: flex;
   flex-direction: row;
-  height: 10rem;
+  height: 8rem;
   width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .imgContainer {
   display: flex;
   flex-direction: row;
-  height: 7rem;
-  width: 7rem;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 8rem;
 }
 
 .img {
@@ -58,6 +63,8 @@
 .detailsContainer {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
   padding-left: 2rem;
   justify-content: center;
 }

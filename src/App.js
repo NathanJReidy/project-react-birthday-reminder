@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="centerCard">
-        <p>{birthdayCount} birthdays today</p>
+        <p className="birthdaysToday">{birthdayCount} birthdays today</p>
         <div className="birthdayCardList">
           {people.map((person) => {
             return <BirthdayCard key={person.id} {...person} />;
