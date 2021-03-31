@@ -24,6 +24,7 @@
   border-radius: 0.75rem;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .birthdaysToday {
@@ -78,4 +79,10 @@
 
 .age {
   margin: 0;
+}
+
+.remove {
+  color: gray;
+  font-style: italic;
+  cursor: pointer;
 }

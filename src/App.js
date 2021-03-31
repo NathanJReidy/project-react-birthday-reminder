@@ -4,8 +4,10 @@ import BirthdayCard from "./BirthdayCard";
 import React from "react";
 
 function App() {
+  // Create initial state for the data of the people with birthdays today
   const [people, setPeople] = React.useState(data);
-  const [birthdayCount, setBirthdayCount] = React.useState(5);
+  // Create initial state for the number of people whose birthday it is
+  const [birthdayCount, setBirthdayCount] = React.useState(people.length);
 
   return (
     <>
@@ -13,7 +15,14 @@ function App() {
         <p className="birthdaysToday">{birthdayCount} birthdays today</p>
         <div className="birthdayCardList">
           {people.map((person) => {
-            return <BirthdayCard key={person.id} {...person} />;
+            return (
+              <BirthdayCard
+                key={person.id}
+                {...person}
+                people={people}
+                setPeople={setPeople}
+              />
+            );
           })}
         </div>
         <button
