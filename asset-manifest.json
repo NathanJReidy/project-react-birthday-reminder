@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project-react-birthday-reminder/static/css/main.5d202b22.chunk.css",
-    "main.js": "/project-react-birthday-reminder/static/js/main.e1729cfe.chunk.js",
-    "main.js.map": "/project-react-birthday-reminder/static/js/main.e1729cfe.chunk.js.map",
+    "main.js": "/project-react-birthday-reminder/static/js/main.34968c95.chunk.js",
+    "main.js.map": "/project-react-birthday-reminder/static/js/main.34968c95.chunk.js.map",
     "runtime-main.js": "/project-react-birthday-reminder/static/js/runtime-main.e66c2539.js",
     "runtime-main.js.map": "/project-react-birthday-reminder/static/js/runtime-main.e66c2539.js.map",
     "static/js/2.354439f4.chunk.js": "/project-react-birthday-reminder/static/js/2.354439f4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e66c2539.js",
     "static/js/2.354439f4.chunk.js",
     "static/css/main.5d202b22.chunk.css",
-    "static/js/main.e1729cfe.chunk.js"
+    "static/js/main.34968c95.chunk.js"
   ]
 }
